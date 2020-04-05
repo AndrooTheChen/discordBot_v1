@@ -38,7 +38,25 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: 'Pong!'
                 });
             break;
-            // Just add any case commands if you want to..
+
+            // check the current time
+            case 'time':
+                let date = new Date();
+                let currTime = 'Current time: ' + date.getHours() + ':' + date.getMinutes();
+                bot.sendMessage({
+                    to: channelID,
+                    message: currTime
+                });
+            break;
+
+            // output best girl
+            case 'whoisbestgirl':
+                bot.uploadFile({
+                    to: channelID,
+                    file: 'https://imgur.com/WGIneNh'
+                })
+            break;
+
          }
      }
 });

@@ -1,8 +1,23 @@
 {
-    “name”: “greeter-bot”,
-    “version”: “1.0.0”,
-    “description”: “My First Discord Bot”,
-    “main”: “bot.js”,
-    “author”: “Your Name”,
-    “dependencies”: {}
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "simple discord bot",
+  "main": "discordBot.js",
+  "dependencies": {
+    "discord.js": "^12.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrooTheChen/discordBot_v1.git"
+  },
+  "author": "Andrew Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrooTheChen/discordBot_v1/issues"
+  },
+  "homepage": "https://github.com/AndrooTheChen/discordBot_v1#readme"
 }
